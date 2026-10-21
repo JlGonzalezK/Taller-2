@@ -1,0 +1,28 @@
+project:
+  type: default
+  output-dir: docs
+
+execute:
+  echo: false
+  warning: false
+  message: false
+
+format:
+  html:
+    toc: true
+    embed-resources: false
+    css: styles/styles.css
+    grid:
+      sidebar-width: 250px
+      body-width: 1400px
+      margin-width: 0px
+
+  typst:
+    toc: true
+    papersize: a4
+    lang: es
+    fontsize: 11pt
+    mainfont: "Helvetica"
+    section-numbering: "1.1.1"
+    fig-cap-location: bottom
+    tbl-cap-location: top

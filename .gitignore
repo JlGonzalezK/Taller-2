@@ -1,0 +1,20 @@
+# no se publica por ahora
+index.qmd
+_quarto.yml
+/styles/
+referencias.bib
+refs/
+Taller-2.Rproj
+docs/rasters/tif/
+input/
+
+# Uso interno
+.Rhistory
+.RData
+.RDataTmp
+.Rproj.user/
+.quarto/
+_site/
+_freeze/
+_tmp_*
+tmp_*
